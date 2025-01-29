@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MouseTracker.Web", "MouseTracker.Web.csproj", "{FDADCD0D-1006-407D-95C8-BC2CE0E27865}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MouseTracker.Domain", "..\MouseTracker.Domain\MouseTracker.Domain.csproj", "{3813B7CE-D9F9-4763-BF8C-EDF58D2D359D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MouseTracker.Application", "..\MouseTracker.Application\MouseTracker.Application.csproj", "{76B527A2-FCD3-41C8-BF7E-9517F795D8AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MouseTracker.Infrastructure", "..\MouseTracker.Infrastructure\MouseTracker.Infrastructure.csproj", "{E39BE196-1D88-41F7-9EBC-206F1E89E5E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MouseTracker.UnitTest", "..\MouseTracker.UnitTest\MouseTracker.UnitTest.csproj", "{BA7F8CDD-7F1A-4741-9B6C-B6050E38AD2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDADCD0D-1006-407D-95C8-BC2CE0E27865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDADCD0D-1006-407D-95C8-BC2CE0E27865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDADCD0D-1006-407D-95C8-BC2CE0E27865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDADCD0D-1006-407D-95C8-BC2CE0E27865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3813B7CE-D9F9-4763-BF8C-EDF58D2D359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3813B7CE-D9F9-4763-BF8C-EDF58D2D359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3813B7CE-D9F9-4763-BF8C-EDF58D2D359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3813B7CE-D9F9-4763-BF8C-EDF58D2D359D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B527A2-FCD3-41C8-BF7E-9517F795D8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B527A2-FCD3-41C8-BF7E-9517F795D8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B527A2-FCD3-41C8-BF7E-9517F795D8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B527A2-FCD3-41C8-BF7E-9517F795D8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39BE196-1D88-41F7-9EBC-206F1E89E5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39BE196-1D88-41F7-9EBC-206F1E89E5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39BE196-1D88-41F7-9EBC-206F1E89E5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39BE196-1D88-41F7-9EBC-206F1E89E5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7F8CDD-7F1A-4741-9B6C-B6050E38AD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7F8CDD-7F1A-4741-9B6C-B6050E38AD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7F8CDD-7F1A-4741-9B6C-B6050E38AD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7F8CDD-7F1A-4741-9B6C-B6050E38AD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDA72437-7FA5-4ACD-B28E-0872FE818675}
+	EndGlobalSection
+EndGlobal

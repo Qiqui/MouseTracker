@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Mouse Tracker";
+}
+
+<div>
+    <button id="sendData">Отправить данные</button>
+</div>
+
+<script>
+    let mouseData = [];
+
+    document.addEventListener("mousemove", (event) => {
+        const time = new Date().getTime();
+        mouseData.push([event.clientX, event.clientY, time]);
+    });
+
+    document.getElementById('sendData').addEventListener('click', function () {
+        const formattedData = mouseData.map(([x, y, t]) => ({ x, y, t }));
+        fetch('/Home/SaveMouseData', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formattedData)
+        }).then(response => {
+            if (response.ok) {
+                alert('The data has been sent');
+                mouseData = [];
+            }
+        });
+    });
+</script>
